@@ -23,7 +23,7 @@ class CronScheduleModel extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%cron_schedule}}';
+        return 'ecbox.cron_schedule';
     }
 
     /**
